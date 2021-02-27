@@ -17,4 +17,8 @@ jobs:
       - name: Run Gosec Security Scanner
         uses: securego/gosec@master
         with:
+<<<<<<< HEAD
           args: -no-fail *.go
+=======
+          args: -no-fail *.go
+>>>>>>> 422524e5ade5ff4978ef787a0e3626f34ae6b51e
